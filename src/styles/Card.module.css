@@ -3,6 +3,7 @@
     position: relative;
     width: 200px;
     height: 200px;
+    color: black;
 }
 
 .card:hover .filter {
@@ -31,20 +32,24 @@
     z-index: 99;
 }
 
-.info .add {
-    position: absolute;
-    inset: 50% auto auto 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    z-index: inherit;
-}
-
 .price {
     position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
     width: 70%;
     height: 30%;
     padding: 10px;
-    background-color: antiquewhite;
+    background-color: #ffffffcc;
     z-index: inherit;
     border-bottom-right-radius: 5px;
+}
+
+.price p:nth-of-type(1) {
+    font-size: small;
+}
+
+.price p:nth-of-type(2) {
+    color: #f94a4a;
 }
