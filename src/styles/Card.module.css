@@ -43,6 +43,8 @@
     position: absolute;
     width: 70%;
     height: 30%;
+    padding: 10px;
     background-color: antiquewhite;
     z-index: inherit;
+    border-bottom-right-radius: 5px;
 }
