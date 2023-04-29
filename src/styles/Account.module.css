@@ -1,0 +1,33 @@
+.image {
+    object-fit: cover;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 99px;
+    overflow: hidden;
+}
+
+.info {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.info h2 {
+    padding-bottom: 10px;
+}
+
+.infoWrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+}
