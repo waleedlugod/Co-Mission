@@ -11,11 +11,10 @@ const nunitoSans = Nunito_Sans({
     subsets: ["latin"],
 });
 
-export default function Card() {
-    const accountId = accounts[Math.floor(Math.random() * accounts.length)].id;
+export default function Card({ post }) {
     return (
-        <Link href={`account/${accountId}`} className={styles.card}>
-            <Image className={styles.img} src="/sky.jpg" fill alt="" />
+        <Link href={`account/${post.username}`} className={styles.card}>
+            <Image className={styles.img} src={post.pic} fill alt="" />
             <div className={[styles.info, nunitoSans.className]}>
                 <div className={styles.price}>
                     <FontAwesomeIcon className="fa-2xl" icon={faSackDollar} />

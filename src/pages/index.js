@@ -1,8 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Nav from "co-mission/components/Nav";
-import Header from "co-mission/components/Header";
-import Feed from "co-mission/components/Feed";
+import Main from "co-mission/components/Main";
 import { accounts } from "co-mission/data/accountsdata";
 
 export default function Home() {
@@ -16,8 +15,7 @@ export default function Home() {
             </Head>
             <main>
                 <Nav />
-                <Header />
-                <Feed />
+                <Main />
             </main>
         </>
     );
