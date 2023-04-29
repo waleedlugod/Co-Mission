@@ -1,11 +1,10 @@
 .feed {
     display: grid;
-    width: fit-content;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 17rem));
+    justify-content: center;
+    row-gap: 2rem;
 }
 
 .main {
-    display: flex;
-    justify-content: center;
+    padding: 2rem;
 }

@@ -1,10 +1,12 @@
 import Image from "next/image";
-import { accounts } from "co-mission/data/accountsdata";
 import styles from "co-mission/styles/Account.module.css";
+import { getAccountIds, getAccountData } from "co-mission/helpers/accountHelper";
+import Nav from "co-mission/components/Nav";
 
 export default function Account({ accountData }) {
     return (
         <div className={styles.main}>
+            <Nav />
             <div>
                 <div className={styles.imageWrapper}>
                     <Image className={styles.image} src={accountData.pfp} fill alt="" />
@@ -28,16 +30,6 @@ export default function Account({ accountData }) {
     );
 }
 
-function getAccountIds() {
-    return accounts.map((account) => {
-        return {
-            params: {
-                id: account.id,
-            },
-        };
-    });
-}
-
 export async function getStaticPaths() {
     const paths = getAccountIds();
 
@@ -45,10 +37,6 @@ export async function getStaticPaths() {
         paths,
         fallback: false,
     };
-}
-
-function getAccountData(id) {
-    return accounts.find((account) => account.id == id);
 }
 
 export async function getStaticProps({ params }) {

@@ -8,6 +8,7 @@
     height: 200px;
     border-radius: 99px;
     overflow: hidden;
+    margin-bottom: 1rem;
 }
 
 .info {
@@ -29,5 +30,6 @@
 .main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 100px;
+    margin-top: 150px;
+    margin-inline: 100px;
 }

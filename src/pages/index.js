@@ -17,7 +17,7 @@ export default function Home() {
             <main>
                 <Nav />
                 <Header />
-                {/* <Feed /> */}
+                <Feed />
             </main>
         </>
     );
