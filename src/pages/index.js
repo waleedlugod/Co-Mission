@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Feed from "co-mission/components/Feed";
+import { accounts } from "co-mission/data/accountsdata";
 
 export default function Home() {
     return (
@@ -10,9 +11,7 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main>
-                <Feed />
-            </main>
+            <main>{/* <Feed /> */}</main>
         </>
     );
 }

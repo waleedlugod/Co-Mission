@@ -12,7 +12,7 @@ const nunitoSans = Nunito_Sans({
 export default function App({ Component, pageProps }) {
     return (
         <main className={nunitoSans.className}>
-            <Component {...pageProps} />;
+            <Component {...pageProps} />
         </main>
     );
 }
