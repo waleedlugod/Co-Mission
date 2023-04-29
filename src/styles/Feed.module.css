@@ -1,0 +1,11 @@
+.feed {
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
