@@ -1,4 +1,7 @@
 :root {
+    --main-color: #F94A4A;
+    --main-color-dim: #c62a2a;
+    --main-bg-color: #FFFFFF;
 }
 
 * {
