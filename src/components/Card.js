@@ -28,7 +28,8 @@ export default function Card({ post }) {
                 </div>
                 <div className={styles.filter}></div>
             </a>
-            {toggle && <Popup post={post} setToggle={() => setToggle()} />}
+            {/* {toggle && <Popup post={post} setToggle={() => setToggle()} />} */}
+            <Popup post={post} toggle={toggle} setToggle={() => setToggle()} />
         </>
     );
 }

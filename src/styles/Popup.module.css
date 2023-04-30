@@ -38,9 +38,6 @@
 }
 
 .main {
-    position: fixed;
-    inset: 50% auto auto 50%;
-    transform: translate(-50%, -50%);
     width: 50rem;
     height: 30rem;
     padding: 2rem;
@@ -50,6 +47,16 @@
     border: 1px solid black;
     border-radius: 1rem;
     background-color: antiquewhite;
+}
+
+.toggle {
+    position: fixed;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%) scale(0%, 0%);
+    transition: transform 0.5s;
     z-index: 999999;
-    transition: transform 1s;
+}
+
+.toggle:has(.main[data-toggle="true"]) {
+    transform: translate(-50%, -50%) scale(100%, 100%);
 }
