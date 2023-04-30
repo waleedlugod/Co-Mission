@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
 import Nav from "co-mission/components/Nav";
 import Main from "co-mission/components/Main";
-import { accounts } from "co-mission/data/accountsdata";
+import { posts } from "co-mission/data/postsdata";
 
 export default function Home() {
     return (

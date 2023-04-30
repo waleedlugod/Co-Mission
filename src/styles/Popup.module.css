@@ -1,0 +1,55 @@
+.exit {
+    cursor: pointer;
+    position: absolute;
+    inset: 2rem 2rem;
+}
+
+.image {
+    object-fit: contain;
+}
+
+.imageWrapper {
+    position: relative;
+    height: 80%;
+    width: min(60%, 40rem);
+    pointer-events: none;
+    align-self: end;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+    padding-inline: 0px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    background-color: #f94a4a;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.link:hover {
+    background-color: #c62a2a;
+}
+
+.main {
+    position: fixed;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+    width: 50rem;
+    height: 30rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: antiquewhite;
+    z-index: 999999;
+    transition: transform 1s;
+}
