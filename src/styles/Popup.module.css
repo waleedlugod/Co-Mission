@@ -1,7 +1,7 @@
 .exit {
     cursor: pointer;
     position: absolute;
-    inset: 2rem 2rem;
+    inset: 2rem auto auto 2rem;
 }
 
 .image {
@@ -38,18 +38,18 @@
 }
 
 .main {
-    width: 50rem;
-    height: 30rem;
-    padding: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid black;
-    border-radius: 1rem;
-    background-color: antiquewhite;
+    padding: 2rem;
+    width: 50rem;
+    height: 30rem;
 }
 
 .toggle {
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    border: 1px solid black;
     position: fixed;
     inset: 50% auto auto 50%;
     transform: translate(-50%, -50%) scale(0%, 0%);
