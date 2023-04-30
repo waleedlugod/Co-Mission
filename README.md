@@ -1,7 +1,10 @@
-Install depencies:
+First install depencies:
 npm install
 
-Run development server:
+Then run development server:
 npm run dev
 
-put stuff in src/components folder
+sources:
+https://unsplash.com/
+https://fontawesome.com/icons
+https://nextjs.org/docs
