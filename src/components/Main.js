@@ -30,7 +30,7 @@ export default function Main() {
                     ></input>
                 </div>
             </div>
-            <Feed search={searchValue} isShowEverything={searchValue === ""} />
+            <Feed search={searchValue.toLowerCase()} isShowEverything={searchValue === ""} />
         </>
     );
 }

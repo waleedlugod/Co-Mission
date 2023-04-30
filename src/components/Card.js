@@ -20,7 +20,7 @@ export default function Card({ post }) {
                     <FontAwesomeIcon className="fa-2xl" icon={faSackDollar} />
                     <div>
                         <p>Starting at...</p>
-                        <p>$100</p>
+                        <p>${post.price}</p>
                     </div>
                 </div>
             </div>
