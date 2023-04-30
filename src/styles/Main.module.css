@@ -38,7 +38,7 @@
 }
 
 .searchMessage {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 4vw;
     margin-bottom: 40px;
 }
@@ -61,7 +61,7 @@
     border-radius: 50px;
     border: none;
     background-color: var(--main-color);
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .searchButton:hover {

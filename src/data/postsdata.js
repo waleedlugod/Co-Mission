@@ -110,13 +110,13 @@ export const posts = [
     {
         username: "heart",
         pic: "https://images.unsplash.com/photo-1484239398315-f1681ef72fe6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        tag: ["merch", "logo"],
+        tags: ["merch", "logo"],
         price: "3000",
     },
     {
         username: "james",
         pic: "https://images.unsplash.com/photo-1582201957428-5ff47ff7605c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=383&q=80",
-        tag: ["pastel", "traditional"],
+        tags: ["pastel", "traditional"],
         price: "200",
     },
 ];
