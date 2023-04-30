@@ -22,8 +22,8 @@
 .navLeft {
     width: fit-content;
     position: relative;
-    aspect-ratio: 1;
-    width: 15rem;
+    aspect-ratio: calc(685 / 212);
+    width: 70rem;
     margin: 1rem auto auto 1rem;
 }
 

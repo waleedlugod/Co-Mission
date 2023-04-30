@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <div className={styles.mainNav}>
             <Link href="/" className={styles.navLeft}>
-                <Image className={styles.logo} src="/comission-logo.png" fill alt="comission" />
+                <Image className={styles.logo} src="/comission-logo2.png" fill alt="comission" />
             </Link>
 
             {/* div for other buttons at right of nav */}
