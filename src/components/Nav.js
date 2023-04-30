@@ -7,9 +7,8 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons"; // import the i
 export default function Home() {
     return (
         <div className={styles.mainNav}>
-            {/* div for the logo */}
             <Link href="/" className={styles.navLeft}>
-                <Image className={styles.logo} src="/placeholder-logo.png" fill alt="comission" />
+                <Image className={styles.logo} src="/comission-logo.png" fill alt="comission" />
             </Link>
 
             {/* div for other buttons at right of nav */}
