@@ -5,25 +5,27 @@ import Nav from "co-mission/components/Nav";
 
 export default function Account({ accountData }) {
     return (
-        <div className={styles.main}>
-            <Nav />
-            <div>
-                <div className={styles.imageWrapper}>
-                    <Image className={styles.image} src={accountData.pfp} fill alt="" />
+        <div className={styles.background}>
+            <div className={styles.main}>
+                <Nav />
+                <div>
+                    <div className={styles.imageWrapper}>
+                        <Image className={styles.image} src={accountData.pfp} fill alt="" />
+                    </div>
+                    <h1>{accountData.id}</h1>
+                    <h4>{accountData.name}</h4>
                 </div>
-                <h1>{accountData.id}</h1>
-                <h4>{accountData.name}</h4>
-            </div>
-            <div className={styles.infoWrapper}>
-                <div className={styles.info}>
-                    <h2>Basic Info</h2>
-                    <p>Age: {accountData.age}</p>
-                    <p>{accountData.description}</p>
-                </div>
-                <div className={styles.info}>
-                    <h2>Commission Me!</h2>
-                    <p>Rates: {accountData.rates}</p>
-                    <p>{accountData.contact}</p>
+                <div className={styles.infoWrapper}>
+                    <div className={styles.info}>
+                        <h2>Basic Info</h2>
+                        <p>Age: {accountData.age}</p>
+                        <p>{accountData.description}</p>
+                    </div>
+                    <div className={styles.info}>
+                        <h2>Commission Me!</h2>
+                        <p>Rates: {accountData.rates}</p>
+                        <p>{accountData.contact}</p>
+                    </div>
                 </div>
             </div>
         </div>
